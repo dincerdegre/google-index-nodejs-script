@@ -1,0 +1,29 @@
+{
+  "name": "google-index-script",
+  "version": "1.0.0",
+  "description": "NodeJS Script For Google Page Index",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dincerdegre/google-index-nodejs-script.git"
+  },
+  "keywords": [
+    "google",
+    "index"
+  ],
+  "author": "Dinçer Değre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dincerdegre/google-index-nodejs-script/issues"
+  },
+  "homepage": "https://github.com/dincerdegre/google-index-nodejs-script#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "googleapis": "^104.0.0",
+    "node-fetch": "^2.6.7"
+  }
+}
